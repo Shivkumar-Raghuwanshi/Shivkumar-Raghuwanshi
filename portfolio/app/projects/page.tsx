@@ -195,21 +195,7 @@ const projects = [
     ] as TechIconKey[],
     videoUrl: "https://www.youtube.com/embed/A9YZ08L-uXQ?si=KQxWCoXnzPyri4YL",
   },
-  {
-    title: "AgileAce: Saas for project management collaboration work ",
-    description:
-      "AgileAce Project is built with a modern tech stack. It is designed to provide an efficient and user-friendly project management tool that helps teams collaborate and organize their work more effectively.",
-    imageUrl: "/AgileAce.jpeg",
-    demoUrl: "https://project2.com",
-    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/AgileAce",
-    technologies: [
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JavaScript",
-    ] as TechIconKey[],
-    videoUrl: "https://www.youtube.com/embed/gmNUFQTJSQo?si=P59hwJI79mm9FZVf",
-  },
+
   // Add more projects as needed
 ];
 
