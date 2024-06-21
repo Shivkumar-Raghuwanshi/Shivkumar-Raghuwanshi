@@ -16,6 +16,7 @@ const projects = [
       "TypeScript",
       "PostgreSQL",
       "Claude",
+      "LangChain",
       "Prisma",
       "AWS",
       "Docker",
