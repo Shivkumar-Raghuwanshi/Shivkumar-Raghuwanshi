@@ -34,6 +34,8 @@ import crispIcon from "/public/icons/crisp.png";
 import stripeIcon from "/public/icons/stripe.svg";
 import replicateIcon from "/public/icons/ReplicateAI.png";
 import zustandIcon from "/public/icons/zustand.jpg";
+import nodeIcon from "/public/icons/nodejs.svg";
+import expressIcon from "/public/icons/express-js.svg";
 // Import social icons
 import linkedinIcon from "/public/icons/linkedin.svg";
 import emailIcon from "/public/icons/gmail.svg";
@@ -73,7 +75,9 @@ export type TechIconKey =
   | "Crisp"
   | "Stripe"
   | "ReplicateAI"
-  | "Zustand";
+  | "Zustand"
+  | "Node"
+  | "Express";
 
 export const TechIcons: Record<TechIconKey, string> = {
   Python: pythonIcon,
@@ -110,6 +114,8 @@ export const TechIcons: Record<TechIconKey, string> = {
   Stripe: stripeIcon,
   ReplicateAI: replicateIcon,
   Zustand: zustandIcon,
+  Node: nodeIcon,
+  Express: expressIcon,
 };
 
 export type SocialIconKey = "Github" | "Linkedin" | "Email" | "Phone";

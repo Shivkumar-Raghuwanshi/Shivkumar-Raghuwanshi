@@ -3,6 +3,44 @@ import { TechIconKey } from "@/components/TechIcons";
 
 const projects = [
   {
+    title: "AnswersAi-Backend.",
+    description:
+      "AnswersAi-Backend is a scalable RESTful API built with Node.js, Express.js, and TypeScript, designed to provide AI-generated answers to user questions. It utilizes Prisma as an ORM, Docker for containerization, LangChain for AI-powered question answering, Anthropic API for chat functionality, and Supabase for PostgreSQL database management.",
+    imageUrl: "/AnswersAI.jfif",
+    demoUrl: "https://www.youtube.com/embed/SvV9BUQbA9g?si=p_YL0Woz88V4HxQU",
+    codeUrl:
+      "https://github.com/Shivkumar-Raghuwanshi/Shivkumar-Raghuwanshi-AnswerAI-Backend",
+    technologies: [
+      "Node",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Claude",
+      "Prisma",
+      "AWS",
+      "Docker",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/Wzp4Lh-KBDs?si=k4Vf9U9lmY7yd6ZB",
+  },
+  {
+    title: "NextJs-CodeEditor.",
+    description:
+      "NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, AWS Amplify, and Docker. Whether you're a developer looking for a lightweight code editing solution or an educator teaching programming concepts, this project aims to provide an intuitive and responsive interface.",
+    imageUrl: "/codeEditor.jfif",
+    demoUrl: "https://master.d26li85r6xf4oe.amplifyapp.com/",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/Nextjs-CodeEditor",
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+      "AWS",
+      "Docker",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/RocPUdO5eNM?si=7nWWtYXHQbyb5HA5",
+  },
+  {
     title: "Samarth: All-in-one prompt generation platform.",
     description:
       "Samarth AI is an all-in-one prompt generation platform. It supports conversation, image generation, music generation, video generation, and code generation. This platform is designed to provide a seamless experience for generating various types of content using advanced AI technologies.",
@@ -195,7 +233,21 @@ const projects = [
     ] as TechIconKey[],
     videoUrl: "https://www.youtube.com/embed/A9YZ08L-uXQ?si=KQxWCoXnzPyri4YL",
   },
-
+  {
+    title: "AgileAce: Saas for project management collaboration work ",
+    description:
+      "AgileAce Project is built with a modern tech stack. It is designed to provide an efficient and user-friendly project management tool that helps teams collaborate and organize their work more effectively.",
+    imageUrl: "/AgileAce.jpeg",
+    demoUrl: "https://project2.com",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/AgileAce",
+    technologies: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/gmNUFQTJSQo?si=P59hwJI79mm9FZVf",
+  },
   // Add more projects as needed
 ];
 
