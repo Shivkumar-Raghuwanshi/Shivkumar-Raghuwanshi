@@ -3,6 +3,27 @@ import { TechIconKey } from "@/components/TechIcons";
 
 const projects = [
   {
+    title: "PropAI: Your Comprehensive Property Assistant",
+    description:
+      "PropAI is an advanced, AI-powered platform revolutionizing the accommodation search process. Developed by Shivkumar Raghuwanshi, PropAI offers expert guidance across a wide spectrum of housing options through its specialized AI assistant",
+    imageUrl: "/PropAI.jpg",
+    demoUrl: "https://prop-ai-shivkumar-raghuwanshis-projects.vercel.app/",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/PropAI",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+      "PostgreSQL",
+      "Claude",
+      "LangChain",
+      "Prisma",
+      "Docker",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/jg9qctimD_c?si=un3Tlk12GHQ2drbh",
+  },
+  {
     title: "AnswersAi-Backend.",
     description:
       "AnswersAi-Backend is a scalable RESTful API built with Node.js, Express.js, and TypeScript, designed to provide AI-generated answers to user questions. It utilizes Prisma as an ORM, Docker for containerization, LangChain for AI-powered question answering, Anthropic API for chat functionality, and Supabase for PostgreSQL database management.",
@@ -24,25 +45,7 @@ const projects = [
     videoUrl: "https://www.youtube.com/embed/Wzp4Lh-KBDs?si=k4Vf9U9lmY7yd6ZB",
   },
   {
-    title: "NextJs-CodeEditor.",
-    description:
-      "NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, AWS Amplify, and Docker. Whether you're a developer looking for a lightweight code editing solution or an educator teaching programming concepts, this project aims to provide an intuitive and responsive interface.",
-    imageUrl: "/codeEditor.jfif",
-    demoUrl: "https://master.d26li85r6xf4oe.amplifyapp.com/",
-    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/Nextjs-CodeEditor",
-    technologies: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Shadcn",
-      "AWS",
-      "Docker",
-    ] as TechIconKey[],
-    videoUrl: "https://www.youtube.com/embed/RocPUdO5eNM?si=7nWWtYXHQbyb5HA5",
-  },
-  {
-    title: "Samarth: All-in-one prompt generation platform.",
+    title: "SamarthAI: All-in-one prompt generation platform.",
     description:
       "Samarth AI is an all-in-one prompt generation platform. It supports conversation, image generation, music generation, video generation, and code generation. This platform is designed to provide a seamless experience for generating various types of content using advanced AI technologies.",
     imageUrl: "/SamarthAI.png",
@@ -85,6 +88,24 @@ const projects = [
       "Stripe",
     ] as TechIconKey[],
     videoUrl: "https://www.youtube.com/embed/gmNUFQTJSQo?si=P59hwJI79mm9FZVf",
+  },
+  {
+    title: "NextJs-CodeEditor.",
+    description:
+      "NextJs-CodeEditor is a simple code editor built using Next.js, TypeScript, Tailwind CSS, Shadcn UI, AWS Amplify, and Docker. Whether you're a developer looking for a lightweight code editing solution or an educator teaching programming concepts, this project aims to provide an intuitive and responsive interface.",
+    imageUrl: "/codeEditor.jfif",
+    demoUrl: "https://master.d26li85r6xf4oe.amplifyapp.com/",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/Nextjs-CodeEditor",
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+      "AWS",
+      "Docker",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/RocPUdO5eNM?si=7nWWtYXHQbyb5HA5",
   },
   {
     title: "PrimeFlicks: Movie and TV enthusiasts ",
