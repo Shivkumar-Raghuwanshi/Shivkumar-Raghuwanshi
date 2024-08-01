@@ -21,6 +21,7 @@ export default function Navbar() {
           <div className="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
             <NavLink href="/about">About</NavLink>
             <NavLink href="/projects">Projects</NavLink>
+            <NavLink href="/services">Services</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-4">
