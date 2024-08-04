@@ -3,6 +3,27 @@ import { TechIconKey } from "@/components/TechIcons";
 
 const projects = [
   {
+    title: "API Parser: Interpreting API documentation, generating code",
+    description:
+      "API Parser is a modern, responsive web application designed to interact with the API Parser backend. It provides a user-friendly interface for interpreting API documentation, generating code, and managing API data. Built with cutting-edge technologies.",
+    imageUrl: "/API.PNG",
+    demoUrl: "https://api-parser-murex.vercel.app/",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/api_parser_frontend",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Python",
+      "Shadcn",
+      "Claude",
+      "LangChain",
+      "Django",
+      "DRF",
+      "Tailwind CSS",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/xlwGtnT8J9Y?si=H_E_vJ5GIxxxOuH5",
+  },
+  {
     title: "PropAI: Your Comprehensive Property Assistant",
     description:
       "PropAI is an advanced, AI-powered platform revolutionizing the accommodation search process. Developed by Shivkumar Raghuwanshi, PropAI offers expert guidance across a wide spectrum of housing options through its specialized AI assistant",
@@ -173,6 +194,23 @@ const projects = [
       "Prisma",
     ] as TechIconKey[],
     videoUrl: "https://www.youtube.com/embed/iiJWVvqZYe0?si=7ocOvVulcj6l0wqc",
+  },
+  {
+    title: "Employee Hub: Employee management system",
+    description:
+      "Employee Hub is a comprehensive employee management system designed to streamline HR processes and enhance workplace efficiency. Built with cutting-edge web technologies, it offers a robust and user-friendly interface for managing employee data, tracking performance, and facilitating communication within your organization.",
+    imageUrl: "/employee.PNG",
+    demoUrl: "https://employee-hub-puce.vercel.app/",
+    codeUrl: "https://github.com/Shivkumar-Raghuwanshi/employee-hub",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+      "PostgreSQL",
+      "Prisma",
+    ] as TechIconKey[],
+    videoUrl: "https://www.youtube.com/embed/wgrbf3yfdlg?si=9SvVzsYagBc-7ZQ_",
   },
   {
     title: "Modern Search",

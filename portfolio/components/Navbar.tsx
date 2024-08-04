@@ -63,6 +63,7 @@ export default function Navbar() {
                 <nav className="flex flex-col space-y-4 mt-8">
                   <MobileNavLink href="/about">About</MobileNavLink>
                   <MobileNavLink href="/projects">Projects</MobileNavLink>
+                  <MobileNavLink href="/services">Services</MobileNavLink>
                   <MobileNavLink href="/contact">Contact</MobileNavLink>
                 </nav>
                 <div className="flex items-center space-x-4 mt-8">
